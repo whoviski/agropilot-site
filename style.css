@@ -1,0 +1,15 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#1d2a1f;background:#f6f8f4;line-height:1.55}
+img{max-width:100%;display:block}.wrap{max-width:1140px;margin:0 auto;padding:0 20px}section{padding:64px 0}
+h1{font-size:clamp(2rem,5vw,3.4rem);margin:0 0 16px}h2{font-size:clamp(1.6rem,3.5vw,2.3rem);margin:0 0 20px}h3{margin:0 0 8px}
+.hero{background:#14301c;color:#fff;padding:72px 0}.hero .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center}
+.hero p{font-size:1.2rem;opacity:.9}.btn{display:inline-block;margin-top:18px;background:#7cc242;color:#10200f;padding:14px 28px;border-radius:30px;text-decoration:none;font-weight:600}
+.hero img{border-radius:16px;background:#fff}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 18px rgba(0,0,0,.07);display:flex;flex-direction:column}
+.card img{aspect-ratio:4/3;object-fit:contain;background:#eef2ea;width:100%}.card .b{padding:20px}.cap{font-size:.85rem;color:#5b6b5d;padding:6px 20px 0}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.split img{border-radius:16px;background:#fff}
+.sub{color:#3f7a22;font-weight:600;font-size:1.15rem;margin-bottom:12px}.fund{background:#e7f1df;border-left:6px solid #7cc242;padding:28px;border-radius:12px;font-size:1.1rem}
+.pb{display:grid;grid-template-columns:1fr 1fr;gap:24px}.pb div{background:#fff;padding:26px;border-radius:14px}.pb h3{color:#3f7a22}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;counter-reset:s}.step{background:#fff;padding:26px;border-radius:14px;position:relative}
+.step .n{font-size:2.4rem;font-weight:800;color:#7cc242}figure{margin:0}figcaption{font-size:.9rem;color:#5b6b5d;margin-top:8px}
+.team{background:#fff;border-radius:14px;padding:26px}footer{background:#14301c;color:#cfe0c8;padding:28px 0;font-size:.95rem}
+@media(max-width:820px){.hero .wrap,.split,.pb{grid-template-columns:1fr}.cards,.steps{grid-template-columns:1fr}section{padding:44px 0}}
