@@ -13,3 +13,5 @@ h1{font-size:clamp(2rem,5vw,3.4rem);margin:0 0 16px}h2{font-size:clamp(1.6rem,3.
 .step .n{font-size:2.4rem;font-weight:800;color:#7cc242}figure{margin:0}figcaption{font-size:.9rem;color:#5b6b5d;margin-top:8px}
 .team{background:#fff;border-radius:14px;padding:26px}footer{background:#14301c;color:#cfe0c8;padding:28px 0;font-size:.95rem}
 @media(max-width:820px){.hero .wrap,.split,.pb{grid-template-columns:1fr}.cards,.steps{grid-template-columns:1fr}section{padding:44px 0}}
+.contacts a{color:inherit;text-decoration:underline}
+.contacts p{margin:.3em 0}
